@@ -62,21 +62,21 @@ It includes:
 ## 📂 File Structure
 
 ```plaintext
-├─ README.md                    # This file
-├─ starter_notebook.ipynb       # Main Colab notebook (NOAA + OSM joins)
-├─ requirements.txt             # Run: pip instal -r requirements.txt
-├─ .env.example                 # change file name to .env and put NOAA API key here
+├─ README.md                      # This file
+├─ starter_notebook.ipynb         # Main Colab notebook (NOAA + OSM joins)
+├─ requirements.txt               # Run: pip instal -r requirements.txt
+├─ .env.example                   # change file name to .env and put NOAA API key here
 ├─ data/
-│  └─ examples/                 # Tiny sample CSVs (5 rows each)
-│    ├─ perimeter_sample.csv    # Example Dataset 1 - will be changed with larger dataset later
-│    └─ geo_events_sample.csv   # Example Dataset 2 - will be changed with larger dataset later
+│  └─ examples/                   # Tiny sample CSVs (5 rows each)
+│    ├─ perimeter_sample.csv      # Example Dataset 1 - will be changed with larger dataset later
+│    └─ geo_events_sample.csv     # Example Dataset 2 - will be changed with larger dataset later
 ├─ scripts/
-│  ├─ common.py                 # shared helpers (paths, EWKT, retry session)
-│  ├─ noaa_daily_join.py        # NOAA weather - fetch & join
-│  └─ osm_infrastructure.py     # OSM infrastructure - fetch & join
+│  ├─ common.py                   # shared helpers (paths, EWKT, retry session)
+│  ├─ noaa_weather_join.py        # NOAA weather - fetch & join
+│  └─ osm_infrastructure_join.py  # OSM infrastructure - fetch & join
 └─ docs/
-   ├─ walkthrough_images        # Images used for tuturial
-   └─ submission_checklist.md   # Kaggle writeup requirements
+   ├─ walkthrough_images          # Images used for tuturial
+   └─ submission_checklist.md     # Kaggle writeup requirements
 ```
 
 ---
