@@ -86,22 +86,22 @@ There are two ways to get started with this template, depending on whether you w
 
 ### Option 1: Use Google Colab
 1. **Download the small example datasets** (first 5 rows of the real WatchDuty data):
-- [`perimeter_sample.csv`](https://github.com/WiDSWorldwide/wids-datathon-university-template/blob/main/data/examples/perimeter_sample.csv)
-- [`geo_events_sample.csv`](https://github.com/WiDSWorldwide/wids-datathon-university-template/blob/main/data/examples/geo_events_sample.csv)
+- [`perimeter_sample.csv`](https://github.com/WiDSWorldwide/WiDS_University_Challenge/blob/main/data/examples/perimeter_sample.csv)
+- [`geo_events_sample.csv`](https://github.com/WiDSWorldwide/WiDS_University_Challenge/blob/main/data/examples/geo_events_sample.csv)
 
 These act as a practice dataset to learn how to connect external datasets (NOAA, OSM) to the WatchDuty dataset.
 
 2. **Open the Colab notebook** 
 
 <p align="left">
-  <a href="https://colab.research.google.com/github/WiDSWorldwide/wids-datathon-university-template/blob/main/starter_notebook.ipynb">
+  <a href="https://colab.research.google.com/github/WiDSWorldwide/WiDS_University_Challenge/blob/main/starter_notebook.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
   </a>
 </p>
 
 3. **Upload the sample CSVs** to Colab’s temporary storage (left-hand sidebar under *Files*).
 
-![Upload sample CSVs to Colab](docs/walk_thru_images/colab_upload.png)
+![Upload sample CSVs to Colab](docs/walkthrough_images/upload_data.png)
 
 4. Run the notebook cells to practice NOAA + OSM joins against the sample data set.
 
@@ -112,8 +112,8 @@ These act as a practice dataset to learn how to connect external datasets (NOAA,
 
 2. **Clone your fork**:
 ```
-git clone https://github.com/YOUR-USERNAME/wids-datathon-university-template.git
-cd wids-datathon-university-template
+git clone https://github.com/YOUR-USERNAME/WiDS_University_Challenge.git
+cd WiDS_University_Challenge
 ```
 3. **Ensure you have Python 3.10+** and install requirements:
 ```
